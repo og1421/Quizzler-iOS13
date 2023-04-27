@@ -35,6 +35,7 @@ class ViewController: UIViewController {
         }
         
         quizBrain.nextQuetion()
+        print("Teste")
         
         Timer.scheduledTimer(timeInterval: 0.2, target: self, selector: #selector(updateUi), userInfo: nil, repeats: false)
         
